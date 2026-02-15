@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background: #f6f2e8;
+  padding: 20px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.player {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
