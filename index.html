@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="style.css" />
+<title>台灣麻將算台</title>
+</head>
+<body>
+
+<h1>台灣 16 張麻將</h1>
+
+<div id="status"></div>
+
+<div class="players" id="players"></div>
+
+<hr>
+
+<h3>本局設定</h3>
+
+<label>胡家：
+<select id="winner"></select>
+</label>
+
+<label>放槍者：
+<select id="loser">
+<option value="">自摸</option>
+</select>
+</label>
+
+<label>台數：
+<input type="number" id="tai" value="0">
+</label>
+
+<label>花牌台：
+<input type="number" id="flowerTai" value="0">
+</label>
+
+<label>底：
+<input type="number" id="base" value="50">
+</label>
+
+<button onclick="settle()">結算本局</button>
+
+<hr>
+
+<h3>戰績紀錄</h3>
+<div id="history"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
