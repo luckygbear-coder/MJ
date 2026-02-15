@@ -1,0 +1,8 @@
+{
+  "name": "台灣麻將算台",
+  "short_name": "麻將算台",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6f2e8",
+  "theme_color": "#2f5d3a"
+}
